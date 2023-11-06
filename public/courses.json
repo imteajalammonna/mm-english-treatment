@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to Computer Science",
+    "instructor": "Dr. Amanda Johnson",
+    "description": "An introductory course covering fundamental concepts in computer science and algorithms.",
+    "duration": "8 weeks",
+    "level": "Beginner",
+    "price": 40,
+    "credit": 3,
+    "cover_img": "https://i.ibb.co/VHSDvLj/4.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Data Structures and Algorithms",
+    "instructor": "Professor Mark Williams",
+    "description": "Learn about various data structures and algorithms used in software development.",
+    "duration": "10 weeks",
+    "level": "Intermediate",
+    "price": 50,
+    "credit": 4,
+    "cover_img": "https://i.ibb.co/9y00jkm/2.png"
+  },
+  {
+    "id": 3,
+    "title": "Web Development with JavaScript",
+    "instructor": "Sarah Thompson",
+    "description": "Master front-end and back-end web development using JavaScript and popular frameworks.",
+    "duration": "12 weeks",
+    "level": "Intermediate",
+    "price": 90,
+    "credit": 5,
+    "cover_img": "https://i.ibb.co/qrqc8xL/3.png"
+  },
+  {
+    "id": 4,
+    "title": "Artificial Intelligence Basics",
+    "instructor": "Dr. Michael Brown",
+    "description": "Explore the basics of AI, including machine learning and neural networks.",
+    "duration": "10 weeks",
+    "level": "Intermediate",
+    "price": 90,
+    "credit": 5,
+    "cover_img": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/online-course-facebook-shared-post-design-template-3c19222fd35072641195dc860409d162_screen.jpg?ts=1675160068"
+  },
+  {
+    "id": 5,
+    "title": "Digital Marketing Fundamentals",
+    "instructor": "Emily Clark",
+    "description": "Understand the core concepts of digital marketing and SEO strategies.",
+    "duration": "6 weeks",
+    "level": "Beginner",
+    "price": 50,
+    "credit": 3,
+    "cover_img": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/online-classes-flyer-design-template-66fcbb8545656dc03ceafdbc9cdb7ea7.jpg?ts=1640681879"
+  },
+  {
+    "id": 6,
+    "title": "Mobile App Development",
+    "instructor": "Jason Lee",
+    "description": "Learn to develop mobile applications for iOS and Android platforms.",
+    "duration": "10 weeks",
+    "level": "Intermediate",
+    "price": 70,
+    "credit": 4,
+    "cover_img": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/online-marketing-advert-header-banner-table-design-template-8394c1573349655a6e0093b180e33586.jpg?ts=1607862751"
+  },
+  {
+    "id": 7,
+    "title": "Cybersecurity Essentials",
+    "instructor": "Dr. Sophia Rodriguez",
+    "description": "Essential knowledge about cybersecurity, including threat detection and prevention.",
+    "duration": "8 weeks",
+    "level": "Intermediate",
+    "price": 60,
+    "credit": 4,
+    "cover_img": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/copy-of-copy-of-a-new-design-template-da74de72da5d3a4413b9448804b0d7c9.jpg?ts=1609830046"
+  },
+  {
+    "id": 8,
+    "title": "Business Management Principles",
+    "instructor": "Alex Johnson",
+    "description": "Key principles and strategies in business management and leadership.",
+    "duration": "6 weeks",
+    "level": "Beginner",
+    "price": 49,
+    "credit": 3,
+    "cover_img": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/sunday-service-flyer-design-template-77bc8985087d636009783c901972bf2f.jpg?ts=1599667278"
+  },
+  {
+    "id": 9,
+    "title": "Graphic Design Fundamentals",
+    "instructor": "Rachel Miller",
+    "description": "Learn the basics of graphic design, including typography and layout.",
+    "duration": "8 weeks",
+    "level": "Beginner",
+    "price": 59,
+    "credit": 3,
+    "cover_img": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/business-conference-flyer-design-template-91927c3c7aa46fd0c4b7c0839627c745.jpg?ts=1698399242"
+  },
+  {
+    "id": 10,
+    "title": "Advanced Python Programming",
+    "instructor": "Dr. Oliver Davis",
+    "description": "Advanced concepts and techniques in Python programming language.",
+    "duration": "10 weeks",
+    "level": "Advanced",
+    "price": 99,
+    "credit": 5,
+    "cover_img": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/holy-communion-design-template-d7dbedf66a064f09781bf27cdc6cd9ca.jpg?ts=1665730420"
+  }
+]
