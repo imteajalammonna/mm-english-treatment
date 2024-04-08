@@ -1,25 +1,25 @@
 [
   {
     "id": 1,
-    "title": "Introduction to Computer Science",
-    "instructor": "Dr. Amanda Johnson",
+    "title": "Basic Spoken English",
+    "instructor": "Mahmudul Hasan",
     "description": "An introductory course covering fundamental concepts in computer science and algorithms.",
     "duration": "8 weeks",
     "level": "Beginner",
-    "price": 40,
-    "credit": 3,
-    "cover_img": "https://i.ibb.co/VHSDvLj/4.jpg"
+    "price": 4000,
+    "credit": 5000,
+    "cover_img": "https://i.ibb.co/JpHMgKN/Spoken.png"
   },
   {
     "id": 2,
-    "title": "Data Structures and Algorithms",
-    "instructor": "Professor Mark Williams",
+    "title": "IELTS Preparation",
+    "instructor": "Mahmudul Hasan",
     "description": "Learn about various data structures and algorithms used in software development.",
     "duration": "10 weeks",
     "level": "Intermediate",
-    "price": 50,
-    "credit": 4,
-    "cover_img": "https://i.ibb.co/9y00jkm/2.png"
+    "price": 5000,
+    "credit": 6000,
+    "cover_img": "https://i.ibb.co/6sGhR0k/IELTS.png"
   },
   {
     "id": 3,

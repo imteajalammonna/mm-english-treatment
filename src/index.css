@@ -1,5 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital@0;1&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+html {
+    scroll-behavior: smooth;
+    /* Enable smooth scrolling for the entire page */
+}
+
+.topBtn {
+    background-color: #ff0000;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 23px;
+    /* margin: 10; */
+    border-radius: 5px;
+    padding: 4px;
+    transition: 0.5s ease;
+}
+.topBtn:hover {
+    background-color: #ff2121;
+    color: #ffffff;
+}
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 800; */
+    font-style: normal;
+    /* background-size: contain; */
+}
+
+.tiro-bangla {
+    font-family: "Tiro Bangla", serif;
+    font-style: normal;
+}
+
+.tiro-bangla-regular-italic {
+    font-family: "Tiro Bangla", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.active {
+    border-bottom: 2px solid rgb(67, 67, 67);
+}
+
+.buttons {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    color: #004AAD;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'tiro-bangla';
+    letter-spacing: 0;
+    line-height: 1em;
+    margin: 10;
+    opacity: 1;
+    outline: 0;
+    padding: 1em 2em;
+    position: relative;
+    text-align: center;
+    transition: 0.5s ease;
+}
+
+.buttons:hover {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    background: transparent;
+}
+
+@media (max-width: 640px) {
+    .buttons {
+        padding: .7em .8em;
+    }
+}
+
+.button2 {
+    background-color: transparent;
+    box-sizing: border-box;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'tiro-bangla';
+    letter-spacing: 0;
+    line-height: 1em;
+    margin: 10;
+    opacity: 1;
+    outline: 0;
+    padding: 1em 2em;
+    position: relative;
+    text-align: center;
+    transition: 0.5s ease;
+}
+.line {
+    text-decoration: line-through;
+}
+.button2:hover {
+    color: #004AAD;
+    border: 2px solid #ffffff;
+    background: #ffffff;
+}
+
+@media (max-width: 640px) {
+    .button2 {
+        padding: .7em .8em;
+    }
+}
+
+.button {
+    background-color: #dc0202;
+    box-sizing: border-box;
+    color: #ffffff;
+    border: 2px solid #dc0202;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1em;
+    margin: 10;
+    opacity: 1;
+    outline: 0;
+    padding: 1em 2em;
+    position: relative;
+    text-align: center;
+    transition: 0.5s ease;
+}
+
+.button:hover {
+    color: #dc0202;
+    border: 2px solid #dc0202;
+    background: transparent;
+}

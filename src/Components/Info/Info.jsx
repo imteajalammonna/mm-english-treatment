@@ -7,7 +7,7 @@ const Info = ({ selectedCourses, totalCreditHours, remainingCreditHours })=> {
     totalCoursePrices = selectedCourses.reduce((acc, course) => acc + course.price, 0);
   }
   return (
-    <div className="bg-gray-300 p-8 rounded-lg lg:w-1/3 lg:h-full mt-5 m-1 ">
+    <div className="bg-gray-300 p-8 rounded-lg lg:w-1/3 lg:h-full mt-5 m-1 poppins-thin ">
       <h2 className="text-blue-600 font-bold text-center text-xl">Totol Credit Hours: {totalCreditHours} hr</h2>
       <hr className="my-3" />
       <h2 className="text-2xl font-bold">Course Name</h2>
