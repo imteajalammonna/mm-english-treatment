@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tiro+Bangla:ital@0;1&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,9 +8,14 @@ html {
     scroll-behavior: smooth;
     /* Enable smooth scrolling for the entire page */
 }
+.cute {
+    font-family: "Cute Font", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
 
 .topBtn {
-    background-color: #ff0000;
+    background-color: #fd1a66;
     color: #ffffff;
     cursor: pointer;
     font-size: 23px;
@@ -18,6 +24,7 @@ html {
     padding: 4px;
     transition: 0.5s ease;
 }
+
 .topBtn:hover {
     background-color: #ff2121;
     color: #ffffff;
@@ -98,9 +105,11 @@ html {
     text-align: center;
     transition: 0.5s ease;
 }
+
 .line {
     text-decoration: line-through;
 }
+
 .button2:hover {
     color: #004AAD;
     border: 2px solid #ffffff;
@@ -113,12 +122,18 @@ html {
     }
 }
 
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
 .button {
-    background-color: #dc0202;
+    background-color: #fd1a66;
     box-sizing: border-box;
     color: #ffffff;
-    border: 2px solid #dc0202;
+    border: 2px solid #fd1a66;
+    border-radius: 10px;
     cursor: pointer;
+    font-family: "Poppins", sans-serif;
     display: inline-block;
     font-size: 18px;
     font-weight: 600;
@@ -127,14 +142,14 @@ html {
     margin: 10;
     opacity: 1;
     outline: 0;
-    padding: 1em 2em;
+    padding: 0.9em 1.5em;
     position: relative;
     text-align: center;
     transition: 0.5s ease;
 }
 
 .button:hover {
-    color: #dc0202;
-    border: 2px solid #dc0202;
+    color: #fd1a66;
+    border: 2px solid #fd1a66;
     background: transparent;
 }

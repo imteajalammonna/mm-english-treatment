@@ -6,11 +6,16 @@ import Info from "../Info/Info";
 
 const Courses = () => {
   const [courses, setCourses] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    setLoading(true);
     fetch('courses.json')
       .then(res => res.json())
-      .then(data => setCourses(data))
+      .then(data => {
+        setCourses(data)
+        setLoading(false);
+      })
   }, []);
 
 
@@ -53,7 +58,7 @@ const Courses = () => {
       <div className='lg:flex mt-24 container mx-auto'>
 
         <div className="grid-cols-3 space-y-5 lg:space-y-0 lg:gap-5 m-1 lg:grid">
-          {
+          {loading ? <h1 className="text-xl md:text-9xl font-bold flex items-center ml-32 min-h-screen">Loading...</h1> :
             courses.map(course => <Course key={course.id} selectCourse={selectCourse} course={course}></Course>)
           }
         </div>
