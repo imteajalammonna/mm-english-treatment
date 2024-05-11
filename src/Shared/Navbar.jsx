@@ -10,7 +10,7 @@ const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
   const links = <>
     <NavLink to="/" className="text-xl font-bold transition-colors duration-300">Home</NavLink>
-    <NavLink to="/about" className="text-xl font-bold transition-colors duration-300">About</NavLink>
+    <NavLink to="/about" className="text-xl font-bold transition-colors duration-300">Team</NavLink>
     <NavLink to="/courses" className="text-xl font-bold transition-colors duration-300">Courses</NavLink>
     <NavLink to="/contact" className="text-xl font-bold transition-colors duration-300">Contact</NavLink>
 
@@ -36,11 +36,11 @@ const Navbar = () => {
     <nav className={`fixed top-0 left-0 w-full py-1 z-50 shadow-sm ${scrolled ? 'bg-[#ffff] shadow-lg' : 'bg-transparent'}`}>
       <div className="container mx-auto px-2">
         <div className="flex justify-between items-center">
-          <Link className={`flex items-center ${scrolled ? 'text-[#fd1a66]' : 'text-black'}`} to={'/'}>
-            <FaBook className='text-3xl mr-2' />
+          <Link className={`flex items-center ${scrolled ? 'text-black' : 'text-[#FD1A66]'}`} to={'/'}>
+            <FaBook className='text-xl md:text-3xl mr-2' />
             {/* <img className='h-[72px] rounded-' src={logo} alt="" />  */}
             <div className="m-0 p-0 space-y-0">
-              <h4 className='cute text-6xl p-0 m-0'>MM ENGLISH TREATMENT</h4>
+              <h4 className='cute text-4xl md:text-6xl p-0 m-0'>MM ENGLISH TREATMENT</h4>
               {/* <h4 className="text-lg">An Ideal Way to Learn English</h4> */}
             </div>
           </Link>
@@ -57,7 +57,7 @@ const Navbar = () => {
               <div className="drawer-content">
                 {/* Page content here */}
                 <label htmlFor="my-drawer" className="md:hidden inline-flex items-center justify-center p-2 cursor-pointer">
-                  <HiMenuAlt3 className={`text-3xl ${scrolled ? 'text-white' : 'text-white'}`}></HiMenuAlt3>
+                  <HiMenuAlt3 className={`text-3xl ${scrolled ? 'text-black' : 'text-[#fd1a66]'}`}></HiMenuAlt3>
                 </label>
               </div>
               <div className="drawer-side">

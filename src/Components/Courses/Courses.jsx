@@ -38,7 +38,7 @@ const Courses = () => {
       selectedCourses.forEach(c => credits += c.credit);
 
       const totalRemaining = 20 - credits;
-
+ localStorage.re
       if (credits > 20) {
         return Swal.fire({
           title: 'Error!',
@@ -62,6 +62,7 @@ const Courses = () => {
             courses.map(course => <Course key={course.id} selectCourse={selectCourse} course={course}></Course>)
           }
         </div>
+        <select name="" id=""></select>
         <Info selectedCourses={selectedCourses} totalCreditHours={totalCreditHours} remainingCreditHours={remainingCreditHours} />
       </div>
     </>

@@ -12,6 +12,7 @@ import About from "./Pages/About/About";
 import Register from "./Pages/Register/Register";
 import Login from "./Pages/Register/Login";
 import AuthProvider from "./Components/AuthProvider";
+import Profile from "./Pages/Profile/Profile";
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: "/login",
         element: <Login></Login>
+      },
+      {
+        path: "/profile",
+        element: <Profile></Profile>
       },
     ]
   },
